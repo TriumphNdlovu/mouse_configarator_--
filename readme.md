@@ -98,5 +98,5 @@ You can change:
 - system shortcuts
 
 # 👨‍💻 Author
-by @realtriumphndlovu@gmail.com 
+By realtriumphndlovu+github@gmail.com 
 Take KARE and Enjoy ;)
