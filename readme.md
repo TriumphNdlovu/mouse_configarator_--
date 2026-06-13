@@ -1,31 +1,99 @@
-# Important Information about Mouse(Logitec) Configarator
+# 🖱️ Logitech Mouse Configurator 0.1
 
-### Install python 
-`` pip install python3 ``
+A lightweight Python-based tool to customize Logitech mouse behavior, including:
+- Hold-based macros
+- Keyboard shortcuts
+- Mouse sensitivity control
+- System tray background control
 
-### Gonna get the communication to the device throught this api
-`` pip install hidapi pynput ``
 
-### Gives us the access to the keyboard
-`` pip install keyboard ``
+# ⚙️ Installation
 
-## To change configarion or add more profiles you will edit profile/ folder as you see fit
-``` json 
+## 1. Install Python
+
+Download Python from:
+https://www.python.org/downloads/
+
+
+## 2. Install dependencies
+
+``` pip install hidapi pynput keyboard pystray pillow pyautogui ```
+
+
+# 📦 Required libraries
+
+## HID device access (mouse communication)
+pip install hidapi pynput
+
+## Keyboard automation
+pip install keyboard
+
+## System tray support
+pip install pystray pillow
+
+
+# 📁 Configuration (Profiles)
+
+All settings are stored in the profiles/ folder.
+
+## Example: profiles/default.json
+``` json
 {
-    {
     "mouse_speed": 13,
     "macros": {
-               "x1_hold": "ctrl+c",
-               "x2_hold": "ctrl+v",
-               "middle": "win+shift+s"
+        "x1_hold": "ctrl+c",
+        "x2_hold": "ctrl+v",
+        "middle": "win+shift+s"
     }
 }
 ```
-### Run on start up
-- Click "win + r" 
-- enter "shell:startup" and put your "mouse_macros_startup.bat" in the folder
-- The above will automatically run your script for you when you turn on your pc 
-- Open the script first and update the path\to\project into the right one for you
+
+# 🧠 How it works
+
+| Button | Action |
+|--------|--------|
+| X1 (hold 0.7s+) | Copy (Ctrl + C) |
+| X2 (hold 0.7s+) | Paste (Ctrl + V) |
+| Middle click | Snipping Tool |
+you can add as many micros as you please using the config
 
 
-by @realtriumphndlovu@gmail.com with love and KAre enjoy
+# 🚀 Running on Startup (Windows)
+
+## Step 1
+Press Win + R
+
+Type:
+shell:startup
+
+## Step 2
+Create file: mouse_macros_startup.bat
+
+Content:
+
+@echo off
+cd /d "C:\path\to\your\project"
+pythonw main.py
+
+
+# ⚠️ Important
+- Replace the path with your actual project path
+- Use pythonw so no console window opens
+
+- Enable / disable macros at runtime
+
+
+# 🛠️ Editing Macros
+
+Edit this file:
+
+profiles/default.json
+
+You can change:
+- button mappings
+- hold actions
+- system shortcuts
+
+# 👨‍💻 Author
+by @realtriumphndlovu@gmail.com 
+Take KARE and Enjoy ;)
