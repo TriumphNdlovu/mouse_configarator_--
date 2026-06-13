@@ -23,13 +23,13 @@ https://www.python.org/downloads/
 # 📦 Required libraries
 
 ## HID device access (mouse communication)
-pip install hidapi pynput
+``` pip install hidapi pynput ```
 
 ## Keyboard automation
-pip install keyboard
+``` pip install keyboard ```
 
 ## System tray support
-pip install pystray pillow
+``` pip install pystray pillow ```
 
 
 # 📁 Configuration (Profiles)

@@ -1,8 +1,9 @@
 {
-    "mouse_speed": 13,
+    "mouse_speed": 12,
     "macros": {
-               "x1_hold": "ctrl+c",
-               "x2_hold": "ctrl+v",
-               "middle": "win+shift+s"
+        "x1_hold": "ctrl+c",
+        "x2_hold": "ctrl+v",
+        "middle": "win+shift+s",
+        "middle_hold": "precision sensitivity"
     }
 }
