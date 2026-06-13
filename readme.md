@@ -1,4 +1,5 @@
 # 🖱️ Logitech Mouse Configurator 0.1
+<img width="485" height="547" alt="image" src="https://github.com/user-attachments/assets/496d9ba4-24ad-4257-9a48-d45635f55d2d" />
 
 A lightweight Python-based tool to customize Logitech mouse behavior, including:
 - Hold-based macros
