@@ -1,7 +1,8 @@
 {
     "mouse_speed": 13,
     "macros": {
-        "button.x1": "ctrl+c",
-        "button.x2": "ctrl+v"
+               "x1_hold": "ctrl+c",
+               "x2_hold": "ctrl+v",
+               "middle": "win+shift+s"
     }
 }

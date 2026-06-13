@@ -5,7 +5,7 @@ from profiles import load_profile
 
 profile = load_profile()
 
-print("=== Logitech Assistant v1 ===")
+# print("=== Logitech Assistant v1 ===")
 
 devices = detect_logitech_devices()
 
@@ -14,5 +14,5 @@ for device in devices:
 
 set_mouse_speed(profile["mouse_speed"])
 
-print("Listening for mouse events...")
+# print("Listening for mouse events...")
 start_listener()
