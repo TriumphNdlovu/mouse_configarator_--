@@ -1,0 +1,7 @@
+{
+    "mouse_speed": 13,
+    "macros": {
+        "button.x1": "ctrl+c",
+        "button.x2": "ctrl+v"
+    }
+}
