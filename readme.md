@@ -39,11 +39,12 @@ All settings are stored in the profiles/ folder.
 ## Example: profiles/default.json
 ``` json
 {
-    "mouse_speed": 13,
+    "mouse_speed": 18,
     "macros": {
         "x1_hold": "ctrl+c",
         "x2_hold": "ctrl+v",
-        "middle": "win+shift+s"
+        "middle": "win+shift+s",
+        "middle_hold": "precision sensitivity"
     }
 }
 ```
@@ -55,6 +56,7 @@ All settings are stored in the profiles/ folder.
 | X1 (hold 0.7s+) | Copy (Ctrl + C) |
 | X2 (hold 0.7s+) | Paste (Ctrl + V) |
 | Middle click | Snipping Tool |
+| Middle (hold 0.7s+)  | Slows down|
 you can add as many micros as you please using the config
 
 
