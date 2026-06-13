@@ -8,4 +8,4 @@ def execute_macro(button_name):
 
     if button_name in macros:
         keyboard.send(macros[button_name])
-        print(f"Executed macro: {macros[button_name]}")
+        # print(f"Executed macro: {macros[button_name]}")

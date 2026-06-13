@@ -17,4 +17,4 @@ def set_mouse_speed(speed):
         0
     )
 
-    print(f"Mouse speed set to {speed}")
+    # print(f"Mouse speed set to {speed}")

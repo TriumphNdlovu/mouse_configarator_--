@@ -9,8 +9,8 @@ profile = load_profile()
 
 devices = detect_logitech_devices()
 
-for device in devices:
-    print(device)
+# for device in devices:
+    # print(device)
 
 set_mouse_speed(profile["mouse_speed"])
 
