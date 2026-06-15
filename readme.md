@@ -73,10 +73,11 @@ shell:startup
 Create file: mouse_macros_startup.bat
 
 Content:
-
+```
 @echo off
 cd /d "C:\path\to\your\project"
 pythonw main.py
+```
 
 
 # ⚠️ Important
